@@ -41,6 +41,8 @@ with /// I copy text.
     // /// вообще не нужен, можно прожить всю жизнь и ни разу его не запустить. Это просто лупа: показывает символы в .o
     // /// (T — определено в этом файле, U — нужно снаружи). Никаких «главных» и «второстепенных» файлов не существует.
     // /// Линкер сам сопоставляет U одних файлов с T других.
+    // afterwork //
+    // "nm add.o" and "nm main.o" or "nm add.o main.o" show same things
 
 - gcc INPUT -o OUTPUT
     compile code into binary
@@ -48,3 +50,10 @@ with /// I copy text.
 
 ## Variables
 
+- Chech bool
+
+- chech operators and expressions
+
+- check ternary operations
+
+- try out "for", but with errors, gonna fix it.
