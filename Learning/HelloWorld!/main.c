@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int i = 3; // %d, not %i
+    int i = 3; // %d or %i, but %d used
     float f = 3.14159; // %f
-    char *s = "Hello, world!"; // %s
+    const char *s = "Hello, world!"; // %s
 
     // Claude review
     //

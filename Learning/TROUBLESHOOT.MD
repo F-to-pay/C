@@ -8,17 +8,22 @@ with /// I copy text.
 
 - Comiler problems (MSYS2)
     !!! NEED TO DO
-    /// undefined reference to WinMain
+    /// undefined reference to WinMain //, define main
 
 - Some variables, printf
 
 - "clang" -E show whole code
-    //show whole processor results
+    // show whole processor results
+    // show whole preprocessor results
 
 - "clang -S" gives assembler code
 
 - "clang -c" gives mashine language not-compiled files
     // gives compiled without link
+
+- fix char *s to const char *s
+
+- fix comment to right /// "// %d, not %i"
 
 
 ### Linker
@@ -32,6 +37,10 @@ with /// I copy text.
 - nm INPUT1.o INPUT2.o
     links files each other
     // define main and secondary files
+    // /// nm — два раза мимо. «Define main and secondary files» и «nm required if 2+ files» — оба неверны. nm для линковки
+    // /// вообще не нужен, можно прожить всю жизнь и ни разу его не запустить. Это просто лупа: показывает символы в .o
+    // /// (T — определено в этом файле, U — нужно снаружи). Никаких «главных» и «второстепенных» файлов не существует.
+    // /// Линкер сам сопоставляет U одних файлов с T других.
 
 - gcc INPUT -o OUTPUT
     compile code into binary
