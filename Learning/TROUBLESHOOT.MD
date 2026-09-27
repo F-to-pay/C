@@ -26,7 +26,7 @@ with /// I copy text.
 - fix comment to right /// "// %d, not %i"
 
 
-### Linker
+## Linker
 
 - headers, FILE.h, #include "FILE.h", realization with FILE.c
 
@@ -42,7 +42,7 @@ with /// I copy text.
     // /// (T — определено в этом файле, U — нужно снаружи). Никаких «главных» и «второстепенных» файлов не существует.
     // /// Линкер сам сопоставляет U одних файлов с T других.
     // afterwork //
-    // "nm add.o" and "nm main.o" or "nm add.o main.o" show same things
+    // "nm add.o" and "nm main.o" or "nm add.o main.o" show same things, not requied for build. Show out functions.
 
 - gcc INPUT -o OUTPUT
     compile code into binary
@@ -57,3 +57,9 @@ with /// I copy text.
 - check ternary operations
 
 - try out "for", but with errors, gonna fix it.
+
+- check pre- and post increment and decrement
+
+- check comma operator
+
+- check boolean operators

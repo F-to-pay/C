@@ -2,6 +2,64 @@
 #include <stdbool.h>
 
 int main(void){
+
+    int i = 0;
+
+    // post increment and decrement
+    i++; // same as i += 1
+    i--; // same as i -= 1
+    printf("%d\n", i);
+
+    // pre increment and decrement
+    ++i;
+    --i;
+    printf("%d\n", i);
+
+    int j = 2 + i++;
+
+    printf("%d, %d\n", j, i);
+
+    for (int n = 0; n < 10; n++)
+        printf("n is %d\n", n);
+    
+    // comma operator
+
+    i = 0, j = 0;
+    
+    int a = 0, b = 0;
+
+    for (a = 0, b = 30; a < 100; a++, b++)
+        printf("a is %d, b is %d\n", a, b);
+
+    // conditional operators, TRUE/FALSE
+
+    printf("%d\n", a == b);
+    printf("%d\n", a != b);
+    printf("%d\n", a < b);
+    printf("%d\n", a > b);
+    printf("%d\n", a <= b);
+    printf("%d\n", a >= b);
+
+    if (a < 10)
+        printf("Sucsess!\n");
+    else
+        printf("a is %d, F\n", a);
+
+    // boolean operators
+
+    // && and
+    // || or
+    // ! not
+
+    if (a < b && b > 110)
+        printf("Easy? Maybe.\n");
+
+    if (!(a < 30))  // a >= 30 is same
+        printf("It's okay.\n");
+
+}
+
+int postMain(void){ // main before
     bool b = true;
     
     if (b) {
@@ -41,11 +99,11 @@ int main(void){
     
     printf("The number %d is %s.\n", x, x % 2 == 0? "even": "odd");
 
-
+    return 3;
 }
 
-// code don't work, back after while (not while func, but while)
-//
+// code don't work, back after while
+
 // int calcul1(int v1, int v2, int v3, int v4, int v5){
     // v1 = v1 + 2;
     // v2 = v2 - 5;
