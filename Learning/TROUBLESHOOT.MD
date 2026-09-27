@@ -63,3 +63,5 @@ with /// I copy text.
 - check comma operator
 
 - check boolean operators
+
+- Created temperature convertor, not without problems
