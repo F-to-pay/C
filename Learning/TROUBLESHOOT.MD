@@ -64,4 +64,16 @@ with /// I copy text.
 
 - check boolean operators
 
-- Created temperature convertor, not without problems
+- Created temperature convertor, not without problems. learn about %d, but how much characters to draw, where %5d is 6 char.
+
+- check flow point
+
+- check sizeof
+
+- check all cycles
+
+- check switch
+
+- create adder with fixes
+
+## Exercism
