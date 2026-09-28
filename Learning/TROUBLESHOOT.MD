@@ -78,3 +78,11 @@ with /// I copy text.
 
 ## Exercism
 
+- edit "Goodbye, Mars!"
+
+- create Leap func
+
+- create Difference of Squares
+
+- create grains
+    - learn about offset/shift
