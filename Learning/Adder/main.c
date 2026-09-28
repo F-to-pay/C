@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 
 int digitSum(int number) {
     int sum = 0;
@@ -19,7 +20,7 @@ int main(void){
     int b = 7;
     int c = 10;
     int d = 99999;
-    int cursed = -2147483648;
+    int cursed = INT_MIN;
     printf("-123 is %d\n", digitSum(a));
     printf("0 is %d\n", digitSum(zero));
     printf("7 is %d\n", digitSum(b));

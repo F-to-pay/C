@@ -86,3 +86,5 @@ with /// I copy text.
 
 - create grains
     - learn about offset/shift
+
+- more fixes of code before
