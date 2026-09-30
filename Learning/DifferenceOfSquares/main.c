@@ -1,7 +1,8 @@
 #include <stdio.h>
 
 unsigned int sum_of_squares(unsigned int number){
-    int temp2 = 0;
+    unsigned int temp2 = 0;
+    if (number > 300) return 0;
     while (number > 0) {
         temp2 += number * number;
         number--;
@@ -10,7 +11,8 @@ unsigned int sum_of_squares(unsigned int number){
 }
 
 unsigned int square_of_sum(unsigned int number){
-    int temp1 = 0;
+    unsigned int temp1 = 0;
+    if (number > 300) return 0;
     while (number > 0) {
         temp1 += number;
         number--;
@@ -30,5 +32,5 @@ int main(void){
         printf("%10u is square of sum\n",square_of_sum(i));
         printf("%10u difference of squares\n",difference_of_squares(i));
     }
-
+    printf("If answer is 0, number is too big (return 0)\n");
 }
