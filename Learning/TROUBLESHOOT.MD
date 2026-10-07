@@ -88,3 +88,17 @@ with /// I copy text.
     - learn about offset/shift
 
 - more fixes of code before
+
+## Functions
+
+- learn about void func
+
+- learn about prototype func
+
+- learn about func woth empty parameters
+
+## Random
+
+- Make error checks
+
+- find out at rand() give me 32767 number(s)
